@@ -13,7 +13,7 @@ const fromCity = document.querySelector("#from_city");
 const toCity = document.querySelector("#to_city");
 
 const form = document.querySelector("#booking_form");
-const counterButton = document.querySelector(".counterButton");
+const counterButtons = document.querySelector(".counterButton");
 
 counterButtons.forEach((cur)=>{
 
@@ -48,6 +48,4 @@ locationOptions.map((cur)=>{
 applyLocationOption(fromCity);
 applyLocationOption(toCity);
 
-console.log(a);
 
-var 
